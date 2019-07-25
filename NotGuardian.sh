@@ -37,7 +37,29 @@ echo $kuni "Author : NotGuardian"
 echo $red "Instagram : @notguardianyt"
 echo $kuni "GitHub : $g https://github.com/NotHax"
 echo $blue"================================="
+}
 
+load(){
+
+    echo -e "\n"
+
+    bar=" >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "
+
+    barlength=${#bar}
+
+    i=0
+
+    while((i<100)); do
+
+        n=$((i*barlength / 100))
+
+        printf "\e[00;32m\r[%-${barlength}s]\e[00m" "${bar:0:n}"
+
+        ((i += RANDOM%5+2))
+
+        sleep 0.2
+
+    done
 echo ""
 sleep 0.9
 echo ""

@@ -109,6 +109,7 @@ echo $red " $kuni [ 37 ] $r $g Vbug"
 echo $red " $kuni [ 38 ] $r $g Deface Creator"
 echo $red " $kuni [ 39 ] $r $g XSStrike"
 echo $red " $kuni [ 40 ] $r $g Infoga"
+echo $red " $kuni [ 41 ] $r $g 
 echo
 echo $red " $kuni [ 00 ] $r   Exit" $w
 echo 
@@ -581,8 +582,41 @@ python2 xsstrike
 apt upgrade
 pkg install git                                                       
 pkg install python                                                    
-pkg install python2                                                   git clone https://github.com/m4ll0k/infoga                            cd infoga
+pkg install python2  
+git clone https://github.com/m4ll0k/infoga                            cd infoga
+cd infoga
 python2 infoga.py
+
+;;
+
+#BotFommentFB
+41)apt upgrade && apt update -y
+apt install git unzip python2
+pip2 install --upgrade pip
+pip2 install mechanize
+git clone https://github.com/Senitopeng/BotKomentar.git
+cd BotKomentar
+unzip install.zip
+python2 out.py
+
+;;
+
+#TombolSpecialTermux
+42) pkg install git
+pkg install python
+pkg install python2
+git clone https://github.com/Rusmana-ID/tombol-special-termux
+cd tombol-pecial-termux
+python2 special.py
+
+;;
+
+#DeShal
+43)pkg install git
+git clone https://github.com/KANG-NEWBIE/DeShal
+cd DeShal
+python -m pip install uncompyle6
+python2 -m pip install uncompyle6
 
 ;;
 

@@ -109,7 +109,11 @@ echo $red " $kuni [ 37 ] $r $g Vbug"
 echo $red " $kuni [ 38 ] $r $g Deface Creator"
 echo $red " $kuni [ 39 ] $r $g XSStrike"
 echo $red " $kuni [ 40 ] $r $g Infoga"
-echo $red " $kuni [ 41 ] $r $g 
+echo $red " $kuni [ 41 ] $r $g Comment Bot FB"
+echo $red " $kuni [ 42 ] $r $g Tombol Special Termux"
+echo $red " $kuni [ 43 ] $r $g DeShal"
+echo $red " $kuni [ 44 ] $r $g Encrypt Python Shall"
+echo
 echo
 echo $red " $kuni [ 00 ] $r   Exit" $w
 echo 
@@ -589,7 +593,7 @@ python2 infoga.py
 
 ;;
 
-#BotFommentFB
+#CmmentBotFB
 41)apt upgrade && apt update -y
 apt install git unzip python2
 pip2 install --upgrade pip
@@ -620,12 +624,21 @@ python2 -m pip install uncompyle6
 
 ;;
 
-00) echo $red "Exit"
+#EncryptPythonShall
+44)pkg install git
+pkg install python2
+git clone https://github.com/Rusmana-ID/encript-python-marshall
+cd encript-python-marshall
+sh encript-python.sh
+
+;;
+
+00)echo $red "Exit"
 exit 
 
 ;;
 
-*) echo "Please Use The Right Number"
+*) echo "Please Upython2 requests.shse The Right Number"
 esac
 done
 done
